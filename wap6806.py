@@ -1,9 +1,9 @@
 # Default ESSID is ZyxelXXXXXX
-# Zyxel WAP8606
+# Zyxel WAP6806
 import hashlib
 import argparse
 
-def wap8606(serial):
+def wap6806(serial):
 
 	junk = 'agnahaakeaksalmaltalvandanearmaskaspattbagbakbiebilbitblableblib'\
 	'lyboabodbokbolbomborbrabrobrubudbuedaldamdegderdetdindisdraduedu'\
@@ -71,4 +71,4 @@ parser = argparse.ArgumentParser(description='Zyxel WAP8606 Keygen')
 parser.add_argument('serial', help='Serial Number')
 args = parser.parse_args()
 
-wap8606(args.serial)
+wap6806(args.serial)
